@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(./font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url(./font/Gilroy-Semibold.woff2);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	background: #FFFFFF;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.container {
+	width: 1146px;
+	margin: 0 auto;
+}
+
+/* --------------------------- */
+
+header {
+    margin-bottom: 82.71px;
+    margin-top: 40px;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.navigation a:hover {
+
+    color: #F25822;
+}
+
+.select_nav {
+	border: none;
+	position: relative;
+	outline: none;	
+    
+}
+
+main {
+    margin-bottom: 162px;
+    margin-top: 89px;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__content__leftSide{
+    width: 522px;
+
+} 
+
+.img-right{
+}
+
+.big-title {
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 17px;
+    width: 522px;
+}
+
+.text {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    margin-bottom: 37px;
+    width: 466px;
+}
+
+.btns-list {
+    margin-top: 37px;
+}
+
+.btn{
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;   
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF; 
+}
+
+.btn1{
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    border: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.btn:hover {
+    background: #cc3d09;
+}
+
+.btn1:hover{   
+    background: #c0bdbd; 
+    color: #FFFFFF;
+}
+
+.logos{
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
